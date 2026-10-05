@@ -50,10 +50,10 @@ export default function Home() {
             </a>
             <span className="text-neutral-600">|</span>
             <a
-              href="mailto:info@taxedgefinsolutions.com"
+              href="mailto:kanakababu.lam@taxedgefinsolutions.com"
               className="hover:text-orange-400 transition-colors"
             >
-              info@taxedgefinsolutions.com
+              kanakababu.lam@taxedgefinsolutions.com
             </a>
           </div>
         </div>
@@ -63,9 +63,6 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-neutral-950/90 backdrop-blur-md border-b border-neutral-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center font-black text-xl text-neutral-950 shadow-lg shadow-orange-500/20">
-              TE
-            </div>
             <div>
               <span className="text-lg font-bold tracking-tight text-white block">
                 TAX EDGE <span className="text-orange-500 font-semibold text-sm tracking-wide">FIN SOLUTIONS</span>
@@ -98,19 +95,19 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative pt-20 pb-28 px-4 sm:px-8 overflow-hidden">
-        {/* Subtle geometric background glow */}
+        {/* Glow backdrop */}
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-orange-500/10 blur-[130px] rounded-full pointer-events-none -z-10" />
 
         <div className="max-w-5xl mx-auto text-center">
-            <div className="max-w-5xl mx-auto text-center">
-  {/* Company Logo placed before the badge */}
-  <div className="flex justify-center mb-8">
-    <img
-      src="/logo.png"
-      alt="Tax Edge Fin Solutions"
-      className="h-20 sm:h-24 w-auto object-contain drop-shadow-[0_10px_20px_rgba(249,115,22,0.15)]"
-    />
-  </div>
+          {/* Logo prominently placed before the badge */}
+          <div className="flex justify-center mb-8">
+            <img
+              src="/logo.png"
+              alt="Tax Edge Fin Solutions Logo"
+              className="h-20 sm:h-24 w-auto object-contain drop-shadow-[0_10px_25px_rgba(249,115,22,0.2)]"
+            />
+          </div>
+
           <div className="inline-flex items-center gap-2 border border-orange-500/30 bg-orange-500/10 px-4 py-1.5 rounded-full text-xs font-semibold text-orange-400 uppercase tracking-widest mb-6">
             Institutional-Grade Financial & Regulatory Advisory
           </div>
@@ -247,7 +244,7 @@ export default function Home() {
                   <div className="text-orange-400 text-xl mb-3">📞</div>
                   <h4 className="text-white font-semibold text-base mb-2">Direct Phone & WhatsApp</h4>
                   <p className="text-neutral-400 text-sm mb-3">
-                    Available during corporate working hours (10:00 AM – 06:00 PM).
+                    Available during corporate working hours (10:00 AM – 7:00 PM).
                   </p>
                   <a
                     href="tel:+919985301213"
@@ -264,10 +261,10 @@ export default function Home() {
                     For filings, documentation, and notice reviews:
                   </p>
                   <a
-                    href="mailto:info@taxedgefinsolutions.com"
+                    href="mailto:kanakababu.lam@taxedgefinsolutions.com"
                     className="text-orange-400 font-semibold text-sm hover:underline block truncate"
                   >
-                    info@taxedgefinsolutions.com
+                    kanakababu.lam@taxedgefinsolutions.com
                   </a>
                 </div>
 
