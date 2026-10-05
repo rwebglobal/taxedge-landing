@@ -49,7 +49,7 @@ export default function Home() {
             "@id": "https://taxedgefinsolutions.com",
             "url": "https://taxedgefinsolutions.com",
             "telephone": "+919985301213",
-            "email": "kanakababu.lam@taxedgefinsolutions.com",
+            "email": "info@taxedgefinsolutions.com",
             "priceRange": "₹₹",
             "address": {
               "@type": "PostalAddress",
@@ -94,10 +94,10 @@ export default function Home() {
             </a>
             <span className="text-neutral-600">|</span>
             <a
-              href="mailto:kanakababu.lam@taxedgefinsolutions.com"
+              href="mailto:info@taxedgefinsolutions.com"
               className="hover:text-orange-400 transition-colors"
             >
-              kanakababu.lam@taxedgefinsolutions.com
+              info@taxedgefinsolutions.com
             </a>
           </div>
         </div>
@@ -305,10 +305,10 @@ export default function Home() {
                     For filings, documentation, and notice reviews:
                   </p>
                   <a
-                    href="mailto:kanakababu.lam@taxedgefinsolutions.com"
+                    href="mailto:info@taxedgefinsolutions.com"
                     className="text-orange-400 font-semibold text-sm hover:underline block truncate"
                   >
-                    kanakababu.lam@taxedgefinsolutions.com
+                    info@taxedgefinsolutions.com
                   </a>
                 </div>
 
