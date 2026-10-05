@@ -1,28 +1,71 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Tax Edge Fin Solutions | Tax & Finance Advisory in Vijayawada',
-  description: 'Expert financial advisory for GST filing, tax planning, accounting & business loans in Vijayawada, Guntur & Andhra Pradesh.',
-  keywords: 'tax consultant Vijayawada, GST filing, accounting services, business loans, financial advisor',
-  openGraph: {
-    title: 'Tax Edge Fin Solutions',
-    description: 'Integrated business advisory services in Andhra Pradesh',
-    url: 'https://taxedgefinsolutions.com',
+  metadataBase: new URL("https://taxedgefinsolutions.com"),
+  title: {
+    default: "Tax Edge Fin Solutions | Tax, GST & Corporate Advisory Vijayawada",
+    template: "%s | Tax Edge Fin Solutions",
   },
-}
+  description:
+    "Authorized tax and corporate financial advisory in Vijayawada. Specializing in GST filing, income tax planning, statutory accounting, and business loans across Andhra Pradesh.",
+  keywords: [
+    "Tax Edge Fin Solutions",
+    "Tax Consultant Vijayawada",
+    "GST Filing Vijayawada",
+    "Income Tax Advisory Andhra Pradesh",
+    "Corporate Financial Advisory Guntur",
+    "Business Loans Vijayawada",
+    "LLP Incorporation Andhra Pradesh",
+  ],
+  alternates: {
+    canonical: "https://taxedgefinsolutions.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    title: "Tax Edge Fin Solutions | Tax & Financial Advisory Vijayawada",
+    description:
+      "Expert corporate compliance, direct taxation, GST returns, and structured business loan advisory in Vijayawada & Guntur.",
+    url: "https://taxedgefinsolutions.com",
+    siteName: "Tax Edge Fin Solutions LLP",
+    locale: "en_IN",
+    type: "website",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Tax Edge Fin Solutions LLP",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tax Edge Fin Solutions | Tax & Financial Advisory",
+    description:
+      "Tax advisory, GST filing, and financial consulting in Vijayawada, Andhra Pradesh.",
+    images: ["/logo.png"],
+  },
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="antialiased bg-neutral-950 text-neutral-100">{children}</body>
     </html>
-  )
+  );
 }

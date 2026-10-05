@@ -35,7 +35,51 @@ export default function Home() {
   ];
 
   return (
+
     <div className="min-h-screen bg-neutral-950 text-neutral-100 font-sans selection:bg-orange-500 selection:text-white">
+      {/* Schema.org Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FinancialService",
+            "name": "Tax Edge Fin Solutions LLP",
+            "image": "https://taxedgefinsolutions.com/logo.png",
+            "@id": "https://taxedgefinsolutions.com",
+            "url": "https://taxedgefinsolutions.com",
+            "telephone": "+919985301213",
+            "email": "kanakababu.lam@taxedgefinsolutions.com",
+            "priceRange": "₹₹",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "D.No. 54-14/15-48A, Road No. 11, A.P.U.H.S, Bharathi Nagar",
+              "addressLocality": "Vijayawada",
+              "addressRegion": "Andhra Pradesh",
+              "postalCode": "520008",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 16.5062,
+              "longitude": 80.6480
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "10:00",
+              "closes": "19:00"
+            }
+          }),
+        }}
+      />
       {/* Top Bar */}
       <div className="border-b border-neutral-800 bg-neutral-900/60 backdrop-blur text-xs text-neutral-400 py-2.5 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
