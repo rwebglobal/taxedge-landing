@@ -48,7 +48,7 @@ export default function Home() {
             "image": "https://taxedgefinsolutions.com/logo.png",
             "@id": "https://taxedgefinsolutions.com",
             "url": "https://taxedgefinsolutions.com",
-            "telephone": "+919985301213",
+            "telephone": "+919030891212",
             "email": "info@taxedgefinsolutions.com",
             "priceRange": "₹₹",
             "address": {
@@ -75,7 +75,7 @@ export default function Home() {
                 "Saturday"
               ],
               "opens": "10:00",
-              "closes": "19:00"
+              "closes": "18:00"
             }
           }),
         }}
@@ -84,13 +84,13 @@ export default function Home() {
       <div className="border-b border-neutral-800 bg-neutral-900/60 backdrop-blur text-xs text-neutral-400 py-2.5 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-4">
-            <span>📍 Bharathi Nagar, Vijayawada, AP – 520008</span>
+            <span>📍 Door No. 54-14/5-18A, Road No. 11, 4th Floor, Bharathi Nagar, Vijayawada, AP – 520008</span>
             <span className="hidden md:inline text-neutral-600">|</span>
             <span className="hidden md:inline">LLPIN: ACY-9265</span>
           </div>
           <div className="flex items-center gap-4">
-            <a href="tel:+919985301213" className="hover:text-orange-400 transition-colors">
-              +91 99853 01213
+            <a href="tel:+919030891212" className="hover:text-orange-400 transition-colors">
+              +91 90308 91212
             </a>
             <span className="text-neutral-600">|</span>
             <a
@@ -119,13 +119,13 @@ export default function Home() {
 
           <div className="flex items-center gap-3">
             <a
-              href="tel:+919985301213"
+              href="tel:+919030891212"
               className="hidden sm:inline-flex items-center gap-2 border border-neutral-700 hover:border-neutral-500 px-4 py-2 rounded-lg text-sm font-medium transition-all"
             >
               <span>Call Desk</span>
             </a>
             <a
-              href="https://wa.me/919985301213"
+              href="https://wa.me/919030891212"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-500 text-neutral-950 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-md shadow-orange-600/30"
@@ -169,7 +169,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://wa.me/919985301213"
+              href="https://wa.me/919030891212"
               target="_blank"
               rel="noreferrer"
               className="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-orange-600 hover:bg-orange-500 text-neutral-950 font-bold text-base transition-all shadow-xl shadow-orange-600/25 flex items-center justify-center gap-2"
@@ -178,7 +178,7 @@ export default function Home() {
               <span>💬</span>
             </a>
             <a
-              href="tel:+919985301213"
+              href="tel:+919030891212"
               className="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-neutral-900 hover:bg-neutral-800 border border-neutral-700 text-white font-semibold text-base transition-all flex items-center justify-center gap-2"
             >
               <span>Speak with an Advisor</span>
@@ -239,7 +239,7 @@ export default function Home() {
                 </div>
                 <div className="mt-6 pt-4 border-t border-neutral-800/80">
                   <a
-                    href="https://wa.me/919985301213"
+                    href="https://wa.me/919030891212"
                     className="text-xs font-semibold text-orange-400 hover:text-orange-300 flex items-center gap-1.5"
                   >
                     <span>Request Details</span>
@@ -288,13 +288,13 @@ export default function Home() {
                   <div className="text-orange-400 text-xl mb-3">📞</div>
                   <h4 className="text-white font-semibold text-base mb-2">Direct Phone & WhatsApp</h4>
                   <p className="text-neutral-400 text-sm mb-3">
-                    Available during corporate working hours (10:00 AM – 7:00 PM).
+                    Available during corporate working hours (10:00 AM – 6:00 PM).
                   </p>
                   <a
-                    href="tel:+919985301213"
+                    href="tel:+919030891212"
                     className="text-orange-400 font-semibold text-sm hover:underline block"
                   >
-                    +91 99853 01213
+                    +91 90308 91212
                   </a>
                 </div>
 
@@ -321,7 +321,7 @@ export default function Home() {
                     </p>
                   </div>
                   <a
-                    href="https://wa.me/919985301213"
+                    href="https://wa.me/919030891212"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-4 inline-flex items-center justify-center gap-2 bg-neutral-800 hover:bg-neutral-700 text-orange-400 border border-neutral-700 px-4 py-2 rounded-lg text-xs font-semibold uppercase tracking-wider transition-colors"
